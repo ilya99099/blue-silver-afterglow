@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+.env*
+!.env.example
+public/wasm/
+public/models/*.task
