@@ -1,5 +1,7 @@
 # Afterglow — Pose Lab
 
+[Live demo](https://ilya99099.github.io/blue-silver-afterglow/) · [Source code](https://github.com/ilya99099/blue-silver-afterglow)
+
 A browser-only camera experiment inspired by Akaza’s **Destructive Death — Final Form: Blue Silver Chaotic Afterglow**. Built as an engineering interview project.
 
 ## Run locally
@@ -22,7 +24,7 @@ npm run build
 npm run preview
 ```
 
-Deploy the generated `dist/` directory to a static HTTPS host. A GitHub Actions workflow is included to validate changes and deploy the main branch to GitHub Pages once Pages is enabled with GitHub Actions as its source. The build uses DEPLOY_BASE to support the repository subpath.
+Deploy the generated `dist/` directory to a static HTTPS host. A GitHub Actions workflow is included to validate changes and deploy the main branch to GitHub Pages using GitHub Actions as the Pages source. The build uses DEPLOY_BASE to support the repository subpath.
 
 ## Try the pose
 
